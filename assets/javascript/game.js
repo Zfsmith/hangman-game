@@ -33,7 +33,7 @@ function start(){
 	rand = Math.floor(Math.random() * words.length)
 	word = words[rand];
 	blanks = [];
-	guesses = 10;
+	guesses = 8;
 	letters = [];
 
 	console.log(word);
